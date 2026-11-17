@@ -1,0 +1,27 @@
+{
+  "name": "practica-despliegue",
+  "version": "1.0.0",
+  "description": "Calculadora de práctica para el examen de despliegue",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test",
+    "docs": "jsdoc src -d docs -R README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lobillo-24/practica-despliegue.git"
+  },
+  "keywords": [],
+  "author": "Juan Antonio López",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lobillo-24/practica-despliegue/issues"
+  },
+  "homepage": "https://github.com/Lobillo-24/practica-despliegue#readme",
+  "devDependencies": {
+    "jsdoc": "^4.0.5"
+  }
+}
